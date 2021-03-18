@@ -6,3 +6,7 @@
 #field-list{
     list-style-type: none;
 }
+
+i.current{
+  color: blue;
+}
