@@ -1,6 +1,7 @@
 .navigate{
-    font-size: 14px;
-    display: inline;
+  font-size: 14px;
+  padding-left: 2px;
+  padding-top: 5px;
 }
 
 #field-list{
