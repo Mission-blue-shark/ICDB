@@ -1,0 +1,12 @@
+.navigate{
+    font-size: 14px;
+    display: inline;
+}
+
+#field-list{
+    list-style-type: none;
+}
+
+i.current{
+  color: blue;
+}
