@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "name": "icdb",
+  "description": "icdb server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyampandeygit/ICDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satyampandeygit/ICDB/issues"
+  },
+  "homepage": "https://github.com/satyampandeygit/ICDB#readme"
+}

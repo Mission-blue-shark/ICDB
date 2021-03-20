@@ -46,53 +46,97 @@
           </nav>
           <!-- navbar ends -->
 
+          <!-- Header starts here-->
+          <header>
+            <div class="head-wrapper">
+              <div class="row">
+                <div class="col-4" id="intro">
+                  <p>
+                    <i>ICDB aka Internet College Database helps students know about their college and what's best for them.</i>
+                  </p>
+                </div>
+
+                <div class="col-4" id="ask-question">
+                  <p><b>If your question isn't listed in our list</b></p>
+                  <button type="button" class="btn btn-primary" id="ask">Ask your question</button>
+                </div>
+                <div class="col-3" id="ans-question">
+                  <p><b>Answer any recent questions</b></p>
+                  <button type="button" class="btn btn-primary" id="ans">
+                    Answer questions
+                  </button>
+                </div>
+              </div>
+            </div>
+          </header>
+          <!-- Header ends here-->
+
           <!-- main body parts starts -->
-          <div class="container">
+          <div class="container-fluid">
             <div class="row">
-              <div class="col-3 navigate">
-                <ul id="field-list" >
-                  <li>
-                    <button class="btn">
-                      <i id="home" class="fa fa-home">
-                        Home
+
+              <!-- In this column navigation fields are added -->
+              <div class="col-sm-3 navigate">
+                <div>
+                  <button class="btn">
+                    <i id="home" class="fa fa-home">
+                    Home
+                    </i>
+                  </button>
+                </div>
+                <div>
+                  <button class="btn" >
+                    <i class="fa fa-users" id="comm">
+                      Communities
+                    </i>
+                  </button>
+                </div>
+                <div class="dropdown">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa fa-tags" >
+                        Tags
                       </i>
-                    </button>
-                  </li>
-                  <li>
-                    <button class="btn" >
-                      <i class="fa fa-users" id="comm">
-                        Communities
-                      </i>
-                    </button>
-                  </li>
-                  <li>
-                    <div class="dropdown">
-                      <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-tags" >
-                          Tags
-                        </i>
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                </ul>
-            </div>
-          
-            <div class="col-5">
-              <ul>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+              </div>
+              
+              <!-- Questions answers will be shown here-->
+              <div class="col-sm-5">
+                <!-- header for this column must be fixed at top-->
+                  <div class="suggestions">
+                    Most recents  Most upvoted  Most Recommended
+                  </div>
+                <!-- header ends here -->
 
-              </ul>
-            </div>
-            <div class="col-4">
-              <ul>
+                <!-- Div for Questions & answers starts-->
+                <div class="main-content">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <th> Question: How one score good CPI?</th>
+                      </tr>
+                      <tr> <td>Answer: By studying bitch</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- Questions answer div ends here -->
+              </div>
 
-              </ul>
-            </div>
+              
+              <div class="col-sm-4">
+                  <ul>
 
+                  </ul>
+                </div>
+              </div>
+
+
+            </div>
           </div>
           <!-- main body parts ends -->
 
